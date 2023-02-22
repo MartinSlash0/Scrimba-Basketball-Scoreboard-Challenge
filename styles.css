@@ -1,0 +1,105 @@
+html {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: 'Cursed Timer ULiL', sans-serif;*/
+    background-color: #1B244A;
+}
+
+.container {
+    margin: auto auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 575px;
+    height: 385px;
+
+    text-align: center;
+}
+
+.team {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 155px;
+    height: 120px;
+
+    background-color: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 3.5rem;
+}
+
+.btn-container {
+    margin-top: 35px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+
+    background-color: transparent;
+    color: #9AABD8;
+    border: solid 2px #9AABD8;
+    border-radius: 5px;
+
+    font-size: 1.15rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+
+    cursor: pointer;
+}
+
+.reset-container {
+    margin: 0px auto;
+    text-align: center;
+}
+
+#reset-btn {
+    padding: 10px 40px;
+    
+    background-color: transparent;
+    color: #9AABD8;
+    border: solid 2px #9AABD8;
+    border-radius: 5px;
+
+    font-size: 1.15rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+
+    .container {
+    
+        flex-direction: column;
+    
+        width: auto;
+        height: auto;
+    
+    }
+
+    .btn-container {
+        margin-top: 15px;
+    }
+
+    .reset-container {
+        margin: 25px 10px;
+    }
+}
